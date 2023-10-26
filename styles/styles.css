@@ -1,0 +1,12 @@
+:root {
+    --gray: #FDFBFB;
+    --white: #FFFFFF;
+    --red: #D90429;
+    --icons-red: #EF233C;
+    --black: #000000;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--black);
+}

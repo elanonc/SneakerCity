@@ -1,0 +1,56 @@
+.header {
+    height: 92px;
+    min-width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: yellow;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo, .links {
+    margin-right: 350px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* LOGO */
+
+#logo {
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* ICONES */
+
+.links, .icons {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.links a, .icons .icon {
+    margin-right: 32px;
+}
+
+.links a:last-child, .icons .icon:last-child {
+    margin-right: 0;
+}
