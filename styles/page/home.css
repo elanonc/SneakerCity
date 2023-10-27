@@ -1,0 +1,40 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    width: 464px;
+    height: 464px;
+    border-radius: 50%;
+    position: fixed;
+    right: 192px;
+}
+
+.circle::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: linear-gradient(320deg, #F3E7E9 15.18%, #EFEEF5 71.58%);
+    position: absolute;
+}
+
+.image {
+    width: 568px;
+    height: 384px;
+    background-image: url('../../assets/images/PumaX.png');
+    background-size: cover;
+    top: 76px;
+    right: 88px;
+    position: relative;
+    z-index: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 64px 0 0 128px;
+}

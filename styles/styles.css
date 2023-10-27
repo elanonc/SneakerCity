@@ -1,12 +1,43 @@
 :root {
+
+    /* cores de fundo */
     --gray: #FDFBFB;
     --white: #FFFFFF;
     --red: #D90429;
     --icons-red: #EF233C;
     --black: #000000;
+
+    /*textos*/
+    --p-gray: #000000a6;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
     color: var(--black);
+    background-color: var(--gray);
+}
+
+.product-title {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 88px;
+    margin-bottom: 24px;
+}
+
+.product-description {
+    width: 448px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--p-gray);
+    margin-bottom: 18px;
+}
+
+.product-price {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 64px;
 }

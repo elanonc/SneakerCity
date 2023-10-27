@@ -1,0 +1,11 @@
+:root {
+    --red: #D90429;
+}
+
+.button {
+    width: 135px;
+    height: 44px;
+    background: var(--red);
+    color: #FFFFFF;
+    border: none;
+}

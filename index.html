@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sneaker City</title>
     <link rel="stylesheet" href="styles/reset/reset.css">
-    <link rel="stylesheet" href="styles/components/navbar.css">
+
+    <link rel="stylesheet" href="styles/page/navbar.css">
+    <link rel="stylesheet" href="styles/page/home.css">
+
+    <link rel="stylesheet" href="styles/components/button.css">
+
     <link rel="stylesheet" href="styles/styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +24,7 @@
         <nav class="navbar">
             <div class="logo">
                 <svg id="logo" class="icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-                    <image xlink:href="assets/logo.svg" width="100" height="100" />
+                    <image xlink:href="assets/svg/logo.svg" width="100" height="100" />
                 </svg>
                 <p>SC.</p>
             </div>
@@ -31,17 +36,29 @@
             </div>
             <div class="icons">
                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-                    <image xlink:href="assets/fi_shopping-cart.svg" width="100" height="100" />
+                    <image xlink:href="assets/svg/fi_shopping-cart.svg" width="100" height="100" />
                 </svg>
                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-                    <image xlink:href="assets/fi_heart.svg" width="100" height="100" />
+                    <image xlink:href="assets/svg/fi_heart.svg" width="100" height="100" />
                 </svg>
                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-                    <image xlink:href="assets/fi_user.svg" width="100" height="100" />
+                    <image xlink:href="assets/svg/fi_user.svg" width="100" height="100" />
                 </svg>
             </div>
         </nav>
     </header>
+
+    <section class="home">
+        <div class="circle">
+            <div class="image"></div>
+        </div>
+        <div class="content">
+            <h1 class="product-title">Puma<br> Running SX</h1>
+            <p class="product-description">The shoe that moved mountains for eternity and still does so with a swift touch of modernism</p>
+            <p class="product-price">62, 000RWF</p>
+            <button class="button">Add to cart</button>
+        </div>
+    </section>
 
 
 </body>
