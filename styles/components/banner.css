@@ -1,0 +1,45 @@
+.banner-card {
+    width: 644px;
+    height: 128px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    margin-left: 263px;
+    margin-top: 46px;
+}
+
+.banner-card svg {
+    margin-left: 32px;
+}
+
+.banner-card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 132px;
+    height: 48px;
+}
+
+.banner-card-container-svg {
+    display: flex;
+    align-items: center;
+}
+
+.banner-card-container-text {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin-left: 56px;
+    margin-top: 48px;
+    width: 172px;
+    height: 48px;
+}
+
+.banner-card-container-text svg {
+    margin-left: 16px;
+}
+
+.banner-icon {
+    width: 96px;
+    height: 96px;
+}
