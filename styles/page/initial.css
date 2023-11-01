@@ -1,0 +1,16 @@
+.header, .main {
+    background: linear-gradient(90deg, #FDFBFB 0%, #EBEDEE 100%);
+}
+
+.header {
+    height: 80px;
+    min-width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    height: 566px;
+}

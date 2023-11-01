@@ -14,7 +14,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: var(--black);
-    background: linear-gradient(90deg, #FDFBFB 0%, #EBEDEE 100%);
+    background-color: #FFF;
 }
 
 .product-title {
