@@ -7,7 +7,7 @@
     width: 464px;
     height: 464px;
     border-radius: 50%;
-    position: fixed;
+    position: absolute;
     right: 192px;
 }
 

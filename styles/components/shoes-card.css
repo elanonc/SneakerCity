@@ -1,3 +1,18 @@
-.title {
+.shoes-card {
+    width: 310px;
+    height: 308px;
+    background-color: #0000000a;
+    margin-right: 24px;
+}
 
+.shoes-card:last-child {
+    margin-right: 0;
+}
+
+.shoes-card .shoes-name {
+    margin-top: 24px;
+}
+
+.shoes-card .price {
+    margin-top: 8px;
 }

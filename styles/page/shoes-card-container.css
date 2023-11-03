@@ -1,0 +1,17 @@
+.new-arrivals-container {
+    margin-top: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new-arrivals-container p {
+    /* width: 220px; */
+    height: 32px;
+}
+
+.shoes-card-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+}

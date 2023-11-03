@@ -1,0 +1,16 @@
+.title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.shoes-name {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
