@@ -8,4 +8,5 @@
     background: var(--red);
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
 }
