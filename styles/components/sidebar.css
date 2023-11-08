@@ -1,3 +1,7 @@
 .sidebar#left, .brand {
     margin-left: 32px;
 }
+
+.sidebar {
+    width: 302px;
+}
