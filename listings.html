@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/page/initial.css">
     <link rel="stylesheet" href="styles/page/home.css">
     <link rel="stylesheet" href="styles/page/shoes-card-container.css">
+    <link rel="stylesheet" href="styles/page/catalog-page.css">
 
     <link rel="stylesheet" href="styles/components/button.css">
     <link rel="stylesheet" href="styles/components/mini-card.css">
@@ -62,98 +63,196 @@
         </nav>
     </header>
 
-    <aside class="sidebar" id="left">
-        <nav class="#">
-            <div class="brand">
-                <p>Brand</p>
-                <ul>
-                    <li>
-                        <input type="checkbox" id="checkbox1" name="checkboxes" value="value1">
-                        <label for="checkbox1">Nike</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="checkbox2" name="checkboxes" value="value2">
-                        <label for="checkbox2">Jordan</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="checkbox3" name="checkboxes" value="value1">
-                        <label for="checkbox1">Adidas</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="checkbox4" name="checkboxes" value="value2">
-                        <label for="checkbox2">Fila</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="checkbox5" name="checkboxes" value="value2">
-                        <label for="checkbox2">Gucci</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="checkbox6" name="checkboxes" value="value2">
-                        <label for="checkbox2">Balenciaga</label>
-                    </li>
-                </ul>
+    <section class="catalog-page">
+
+        <aside class="sidebar" id="left">
+            <nav class="#">
+                <div class="brand">
+                    <p>Brand</p>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="checkbox1" name="checkboxes" value="value1">
+                            <label for="checkbox1">Nike</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="checkbox2" name="checkboxes" value="value2">
+                            <label for="checkbox2">Jordan</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="checkbox3" name="checkboxes" value="value1">
+                            <label for="checkbox1">Adidas</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="checkbox4" name="checkboxes" value="value2">
+                            <label for="checkbox2">Fila</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="checkbox5" name="checkboxes" value="value2">
+                            <label for="checkbox2">Gucci</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="checkbox6" name="checkboxes" value="value2">
+                            <label for="checkbox2">Balenciaga</label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-range">
+                    <p>Price range</p>
+                    <section class="range-slider container">
+                        <!-- <span class="output outputOne"></span>
+                            <span class="output outputTwo"></span> -->
+                            <span class="full-range"></span>
+                            <span class="incl-range"></span>
+                            <input name="rangeOne" value="10" min="0" max="100" step="1" type="range">
+                            <input name="rangeTwo" value="90" min="0" max="100" step="1" type="range">
+                        </section>
+                    </div>
+
+                <div class="line"></div>
+
+                <div class="size">
+                    <p>Size</p>
+                    <div class="container">
+
+
+                        <div class="size-btn">
+                            <p>32</p>
+                        </div>
+                        <div class="size-btn">
+                            <p>33</p>
+                        </div>
+                        <div class="size-btn">
+                            <p>34</p>
+                        </div>
+                        <div class="size-btn">
+                            <p>35</p>
+                        </div>
+                        <div class="size-btn">
+                            <p>36</p>
+                        </div>
+                        <div class="size-btn">
+                            <p>37</p>
+                        </div>
+                        <div class="size-btn">
+                            <p>38</p>
+                        </div>
+                        <div class="size-btn">
+                            <p>39</p>
+                        </div>
+                        <div class="size-btn">
+                            <p>40</p>
+                        </div>
+                        <div class="size-btn">
+                            <p>41</p>
+                        </div>
+                        <div class="size-btn">
+                            <p>42</p>
+                        </div>
+                        <div class="size-btn">
+                            <p>43</p>
+                        </div>
+                        <div class="size-btn">
+                            <p>44</p>
+                        </div>
+                        <div class="size-btn">
+                            <p>45</p>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </aside>
+
+        <section class="catalog-container">
+            <h2>The new arrivals</h2>
+            <div class="card-container">
+
+                <div class="catalog-cards">
+                    <div class="card-image">
+                        <img src="assets/images/card/AdiddasBeluga.png" alt="Adidas Beluga">
+                    </div>
+                    <div class="card-description">
+                        <p class="name">Adidas Beluga</p>
+                        <p class="price">35, 000RWF</p>
+                    </div>
+                </div>
+                <div class="catalog-cards">
+                    <div class="card-image">
+                        <img src="assets/images/card/AdiddasBeluga.png" alt="Adidas Beluga">
+                    </div>
+                    <div class="card-description">
+                        <p class="name">Adidas Beluga</p>
+                        <p class="price">35, 000RWF</p>
+                    </div>
+                </div>
+                <div class="catalog-cards">
+                    <div class="card-image">
+                        <img src="assets/images/card/AdiddasBeluga.png" alt="Adidas Beluga">
+                    </div>
+                    <div class="card-description">
+                        <p class="name">Adidas Beluga</p>
+                        <p class="price">35, 000RWF</p>
+                    </div>
+                </div>
+                <div class="catalog-cards">
+                    <div class="card-image">
+                        <img src="assets/images/card/AdiddasBeluga.png" alt="Adidas Beluga">
+                    </div>
+                    <div class="card-description">
+                        <p class="name">Adidas Beluga</p>
+                        <p class="price">35, 000RWF</p>
+                    </div>
+                </div>
+                <div class="catalog-cards">
+                    <div class="card-image">
+                        <img src="assets/images/card/AdiddasBeluga.png" alt="Adidas Beluga">
+                    </div>
+                    <div class="card-description">
+                        <p class="name">Adidas Beluga</p>
+                        <p class="price">35, 000RWF</p>
+                    </div>
+                </div>
+                <div class="catalog-cards">
+                    <div class="card-image">
+                        <img src="assets/images/card/AdiddasBeluga.png" alt="Adidas Beluga">
+                    </div>
+                    <div class="card-description">
+                        <p class="name">Adidas Beluga</p>
+                        <p class="price">35, 000RWF</p>
+                    </div>
+                </div>
+                <div class="catalog-cards">
+                    <div class="card-image">
+                        <img src="assets/images/card/AdiddasBeluga.png" alt="Adidas Beluga">
+                    </div>
+                    <div class="card-description">
+                        <p class="name">Adidas Beluga</p>
+                        <p class="price">35, 000RWF</p>
+                    </div>
+                </div>
+                <div class="catalog-cards">
+                    <div class="card-image">
+                        <img src="assets/images/card/AdiddasBeluga.png" alt="Adidas Beluga">
+                    </div>
+                    <div class="card-description">
+                        <p class="name">Adidas Beluga</p>
+                        <p class="price">35, 000RWF</p>
+                    </div>
+                </div>
+                <div class="catalog-cards">
+                    <div class="card-image">
+                        <img src="assets/images/card/AdiddasBeluga.png" alt="Adidas Beluga">
+                    </div>
+                    <div class="card-description">
+                        <p class="name">Adidas Beluga</p>
+                        <p class="price">35, 000RWF</p>
+                    </div>
+                </div>
             </div>
+        </section>
+    </section>
 
-            <div class="line"></div>
-
-            <div class="price-range">
-                <section class="range-slider container">
-                    <!-- <span class="output outputOne"></span>
-                        <span class="output outputTwo"></span> -->
-                        <span class="full-range"></span>
-                        <span class="incl-range"></span>
-                        <input name="rangeOne" value="10" min="0" max="100" step="1" type="range">
-                        <input name="rangeTwo" value="90" min="0" max="100" step="1" type="range">
-                    </section>
-                </div>
-
-            <div class="line"></div>
-
-            <div class="size">
-                <div class="size-btn">
-                    <p>32</p>
-                </div>
-                <div class="size-btn">
-                    <p>33</p>
-                </div>
-                <div class="size-btn">
-                    <p>34</p>
-                </div>
-                <div class="size-btn">
-                    <p>35</p>
-                </div>
-                <div class="size-btn">
-                    <p>36</p>
-                </div>
-                <div class="size-btn">
-                    <p>37</p>
-                </div>
-                <div class="size-btn">
-                    <p>38</p>
-                </div>
-                <div class="size-btn">
-                    <p>39</p>
-                </div>
-                <div class="size-btn">
-                    <p>40</p>
-                </div>
-                <div class="size-btn">
-                    <p>41</p>
-                </div>
-                <div class="size-btn">
-                    <p>42</p>
-                </div>
-                <div class="size-btn">
-                    <p>43</p>
-                </div>
-                <div class="size-btn">
-                    <p>44</p>
-                </div>
-                <div class="size-btn">
-                    <p>45</p>
-                </div>
-            </div>
-        </nav>
-    </aside>
 </body>
 </html>

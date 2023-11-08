@@ -1,7 +1,13 @@
-.sidebar#left, .brand {
+.sidebar#left {
     margin-left: 32px;
 }
 
 .sidebar {
     width: 302px;
+}
+
+.size,
+.price-range,
+.brand {
+    padding-inline: 32px;
 }

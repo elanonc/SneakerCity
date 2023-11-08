@@ -1,0 +1,41 @@
+.catalog-page {
+    /* height: 1722px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.catalog-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+}
+
+/*
+.catalog-cards {
+    width: 310px;
+} */
+
+.card-image {
+    width: 310px;
+    background-color: rgba(0, 0, 0, 0.04);
+    margin-bottom: 24px;
+}
+
+.card-description p:first-child {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+
+.card-description p:last-child {
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
