@@ -1,0 +1,30 @@
+.footer .line {
+    width: 978px;
+    margin: 0;
+}
+
+.footer {
+    margin-top: 116px;
+}
+
+.footer p {
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer-container {
+    margin-top: 34px;
+}
+
+.social-media-container {
+    margin-bottom: 8px;
+}
+
+.copyright-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
