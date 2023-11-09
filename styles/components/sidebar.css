@@ -1,9 +1,16 @@
-.sidebar#left {
+.sidebar {
+    width: 302px;
+}
+
+#left {
     margin-left: 32px;
 }
 
-.sidebar {
-    width: 302px;
+#right {
+    right: 0;
+    position: absolute;
+    margin-right: 64px;
+    width: 496px;
 }
 
 .size,
