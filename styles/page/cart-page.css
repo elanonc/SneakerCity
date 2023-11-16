@@ -1,0 +1,39 @@
+.order-summary-container {
+    padding-left: 7px;
+    padding-right: 21px;
+}
+
+.summary-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 21px;
+}
+
+.summary-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.summary-container .summary-text:first-child {
+    margin-top: 7px;
+}
+
+
+.order-summary-container {
+    padding-left: 7px;
+    padding-right: 21px;
+}
+
+.checkout-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    gap: 64px;
+}
+
+.checkout-container button {
+    align-self: flex-start;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart page</title>
+
+    <link rel="stylesheet" href="styles/reset/reset.css">
+
+    <link rel="stylesheet" href="styles/page/navbar.css">
+    <link rel="stylesheet" href="styles/page/initial.css">
+    <link rel="stylesheet" href="styles/page/home.css">
+    <link rel="stylesheet" href="styles/page/shoes-card-container.css">
+    <link rel="stylesheet" href="styles/page/catalog-page.css">
+    <link rel="stylesheet" href="styles/page/details-page.css">
+    <link rel="stylesheet" href="styles/page/cart-page.css">
+
+    <link rel="stylesheet" href="styles/components/button.css">
+    <link rel="stylesheet" href="styles/components/mini-card.css">
+    <link rel="stylesheet" href="styles/components/banner.css">
+    <link rel="stylesheet" href="styles/components/text.css">
+    <link rel="stylesheet" href="styles/components/shoes-card.css">
+    <link rel="stylesheet" href="styles/components/input.css">
+    <link rel="stylesheet" href="styles/components/line.css">
+    <link rel="stylesheet" href="styles/components/sidebar.css">
+    <link rel="stylesheet" href="styles/components/price-ranger.css">
+    <link rel="stylesheet" href="styles/components/size-button.css">
+    <link rel="stylesheet" href="styles/components/size.css">
+    <link rel="stylesheet" href="styles/components/footer.css">
+    <link rel="stylesheet" href="styles/components/main-card.css">
+
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Open+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+
+    <header class="header header-listings" background-color="#FFF">
+        <nav class="navbar">
+            <div class="logo">
+                <svg id="logo" class="icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100"
+                    viewBox="0 0 100 100">
+                    <image xlink:href="assets/svg/logo.svg" width="100" height="100" />
+                </svg>
+                <p>SC.</p>
+            </div>
+            <div class="links">
+                <a href="#">New arrivals</a>
+                <a href="#">Men</a>
+                <a href="#">Woman</a>
+                <a href="#">Kids</a>
+            </div>
+            <div class="icons">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                    <image xlink:href="assets/svg/fi_shopping-cart.svg" width="100" height="100" />
+                </svg>
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                    <image xlink:href="assets/svg/fi_heart.svg" width="100" height="100" />
+                </svg>
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                    <image xlink:href="assets/svg/fi_user.svg" width="100" height="100" />
+                </svg>
+            </div>
+        </nav>
+    </header>
+
+    <section class="cart-page">
+        <aside class="sidebar" id="right">
+            <nav class="#">
+                <div class="order-summary-container">
+                    <!-- <div class="order-summary-container"></div> -->
+                    <p>Order summary</p>
+                    <div class="summary-container">
+                        <div class="summary-text">
+                            <p>Sub total</p>
+                            <p>78,000RWF</p>
+                        </div>
+                        <div class="summary-text">
+                            <p>Delivery fee</p>
+                            <p>0RWF</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="order-summary-container checkout-container">
+                    <p>78,000RWF</p>
+                    <button class="button">Proceed to checkout</button>
+                </div>
+            </nav>
+        </aside>
+
+        <section class="cart">
+            <h1>Your shopping cart</h1>
+            <div class="cart-item">
+                <div class="mini-card">
+                    <img src="assets/images/mini-card/JordanDelata/JordanDetala-04.png" alt="Jordan Delata 2">
+                </div>
+                <div class="amount-container">
+                    <p>-</p>
+                    <div id="count" class="size-btn">
+                        <p>1</p>
+                    </div>
+                    <p>+</p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+</body>
+</html>
